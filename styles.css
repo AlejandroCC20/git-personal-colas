@@ -1,0 +1,201 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+#titulo-nav{
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+}
+
+#contenedor-presentacion{  
+    max-width: fit-content;
+    margin: 25px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+#texto-presentacion{
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: justify;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: 20px;
+    background-color: #dfdfdf;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#contenedor-sobre-mi{
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: justify;
+    max-width: fit-content;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contenedor-conocimientos{
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: justify;
+    max-width: fit-content;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+.conocimiento {
+    box-sizing: border-box;
+    background: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    padding: 18px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conocimiento img {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+#logo-grande{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#contenedor-contacto{
+    font-family: sans-serif;
+    max-width: fit-content;
+    text-align: justify;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    background-color: #dfdfdf;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.formulario{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario label {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.formulario button {
+    width: 120px;
+    align-self: center;
+    padding: 8px 16px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.formulario button:hover {
+    background-color: #444;
+}
+
+#instagram-link {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+#instagram-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+footer{
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-style: normal;
+}
